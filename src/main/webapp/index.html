@@ -9,6 +9,15 @@
 <ul>
     <li><a href="users">Users</a></li>
     <li><a href="meals">Meals</a></li>
+    <br/>
+    <form action="meals?action=login" method="get">
+        <input type="text" name="action" value="login" hidden>
+        <input type="radio" name="login" value="1" id="1">
+        <label for="1">1</label>
+        <input type="radio" name="login" value="2" id="2">
+        <label for="2">2</label>
+        <input type="submit" value="login">
+    </form>
 </ul>
 </body>
 </html>
